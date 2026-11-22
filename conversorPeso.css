@@ -1,0 +1,21 @@
+@import url("style.css");
+
+/* Conversor de Libras para Quilos */
+form:has(input[name="libras"]) {
+  max-width: 500px;
+}
+
+form:has(input[name="libras"]) input {
+  font-variant-numeric: tabular-nums;
+}
+
+body:has(input[name="libras"]) > h2 {
+  margin: 22px 0 8px;
+  font-size: 1.1rem;
+}
+
+body:has(input[name="libras"]) > h3 {
+  margin: 0 0 18px;
+  color: var(--primary-dark);
+  font-size: 1.35rem;
+}

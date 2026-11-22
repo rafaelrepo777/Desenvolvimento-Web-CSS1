@@ -1,0 +1,20 @@
+@import url("style.css");
+
+/* Menu principal */
+body:has(nav) {
+  justify-content: center;
+}
+
+body:has(nav) h1 {
+  margin-bottom: 22px;
+}
+
+body:has(nav) nav a {
+  min-height: 96px;
+}
+
+@media (max-width: 560px) {
+  body:has(nav) nav a {
+    min-height: 68px;
+  }
+}

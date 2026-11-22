@@ -1,0 +1,15 @@
+@import url("style.css");
+
+/* Login */
+body:has(form input[type="email"]) {
+  justify-content: center;
+}
+
+form:has(input[type="email"]) {
+  max-width: 440px;
+  align-self: center;
+}
+
+form:has(input[type="email"]) button {
+  margin-top: 12px;
+}

@@ -1,0 +1,22 @@
+@import url("style.css");
+
+/* Resultado da conversão de moeda */
+body:has(> p) {
+  align-items: flex-start;
+}
+
+body:has(> p) > p {
+  width: 100%;
+  margin: 0 0 20px;
+  font-size: clamp(1.05rem, 2.8vw, 1.25rem);
+}
+
+body:has(> p) > button {
+  margin-right: 8px;
+}
+
+@media (max-width: 560px) {
+  body:has(> p) > button {
+    margin-right: 0;
+  }
+}

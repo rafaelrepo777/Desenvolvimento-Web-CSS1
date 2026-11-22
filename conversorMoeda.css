@@ -1,0 +1,14 @@
+@import url("style.css");
+
+/* Conversor de Real para Dólar */
+form:has(#idinheiro) {
+  max-width: 560px;
+}
+
+#idinheiro {
+  font-variant-numeric: tabular-nums;
+}
+
+form:has(#idinheiro) button {
+  margin-top: 6px;
+}

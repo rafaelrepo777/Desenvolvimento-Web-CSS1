@@ -1,0 +1,16 @@
+@import url("style.css");
+
+/* Sorteador de números */
+body:has(> p strong) > p {
+  width: 100%;
+  padding: 28px;
+  text-align: center;
+}
+
+body:has(> p strong) > p strong {
+  display: inline-block;
+  margin-top: 8px;
+  color: var(--primary-dark);
+  font-size: clamp(2.4rem, 8vw, 4rem);
+  line-height: 1.1;
+}
